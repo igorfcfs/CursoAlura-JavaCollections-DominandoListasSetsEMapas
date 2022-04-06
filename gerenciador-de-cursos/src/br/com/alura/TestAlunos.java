@@ -1,12 +1,14 @@
 package br.com.alura;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 public class TestAlunos {
 
 	public static void main(String[] args) {
-		Set<String> alunos = new HashSet<>();
+		Collection<String> alunos = new HashSet<>();
 		alunos.add("Rodrigo Turini");
 		alunos.add("Alberto Souza");
 		alunos.add("Nico Steppat");
